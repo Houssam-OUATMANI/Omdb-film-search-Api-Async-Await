@@ -1,4 +1,4 @@
-// Variable elements du dom
+// Variables elements du dom
 const form = document.getElementById('form')
 const input = document.getElementById('input')
 const submitBtn = document.getElementById('submit')
