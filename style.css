@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+*{
+    font-family: Roboto;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url('felix-mooneeram-evlkOfkQ5rE-unsplash.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    overflow: visible;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 2.5vw;
+}
+
+header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width : 28vw;
+}
+form{
+    width: 100%;
+    outline: none;
+    position : relative;
+}
+input{
+    width: 100%;
+    display: block;
+    padding: 15px;
+    background: none;
+    font-size: 1rem;
+    outline: none;
+    color: #ffffff;
+    border: violet 2px solid;
+    border-radius: 5%;
+    
+}
+
+
+button{
+    margin-top: 10px;
+    width: 12vw;
+    display: inline-block;
+    padding: 10px 8px;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.95rem;
+    outline: none;
+    cursor: pointer;
+    border: violet 2px solid;
+    border-radius: 5%;
+}
+
+button:hover{
+    transform: scale(0.95) ;
+    box-shadow: 0 0 10px rgb(7, 7, 7);
+}
+
+
+.submit{
+    float: left;
+    margin-left: 8%;
+}
+
+.reset{
+    float: right;
+    margin-right: 0%;
+}
+
+::placeholder{
+    color: rgba(75, 75, 75, 0.76);
+    font-size: 22px;
+}
+
+.resultat{
+    position: absolute;
+    left: -32vw;
+    bottom: 0;
+    width: 32vw;
+    background: rgba(146, 145, 145, 0.561);
+    transition: .4s;
+    border-radius: 2%;
+    
+}
+
+h2{
+    font-size: 16px;
+    padding: 5px;
+    text-align : center;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+img{
+    position: absolute;
+    right: -29vw;
+    width: 29vw;
+    bottom: 0;
+    transition: .4s;
+}
