@@ -6,7 +6,7 @@ const resetBtn = document.getElementById('reset')
 
 // Variables API
 
-const apiUrl = 'http://www.omdbapi.com/?apikey=5ece0e02&t='
+const apiUrl = 'http://www.omdbapi.com/?apikey=API KEY HERE !'
 
 
 //function omdbApi
